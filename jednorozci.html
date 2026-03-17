@@ -6,33 +6,63 @@
     <title>Svět Jednorožců 🦄</title>
     <style>
         body {
-            background-color: #fdf2ff; /* Jemně fialové pozadí */
-            color: #4a148c; /* Tmavě fialový text */
+            background-color: #fdf2ff;
+            color: #4a148c;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             text-align: center;
         }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: black;
+            padding: 15px 20px;
+            text-align: left;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #9c27b0;
+        }
+
         .container {
             max-width: 800px;
-            margin: auto;
+            margin: 30px auto;
             background: white;
             padding: 30px;
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(186, 104, 200, 0.3);
         }
+
         h1 {
             color: #9c27b0;
             font-size: 3rem;
             margin-bottom: 10px;
         }
+
         .emoji { font-size: 50px; }
+
         .text-box {
             text-align: left;
             padding: 20px;
         }
-        h2 { border-bottom: 2px solid #e1bee7; padding-bottom: 5px; }
+
+        h2 {
+            border-bottom: 2px solid #e1bee7;
+            padding-bottom: 5px;
+        }
+
         .footer {
             margin-top: 30px;
             font-size: 0.8rem;
@@ -41,6 +71,11 @@
     </style>
 </head>
 <body>
+
+    <!-- HORNÍ LIŠTA -->
+    <div class="navbar">
+        <a href="index.html">🏠 Návrat domů</a>
+    </div>
 
     <div class="container">
         <div class="emoji">🦄</div>
@@ -52,4 +87,13 @@
             <p>Jednorožec je bájný tvor, který je obvykle zobrazován v podobě bílého koně s jedním spirálovitým rohem uprostřed čela. Od nepaměti jsou považováni za symbol čistoty, síly a nespoutanosti. V legendách se říká, že jejich roh má léčivou moc a dokáže neutralizovat i ten nejprudší jed.</p>
 
             <h2>Zajímavosti ze světa magie</h2>
-            <p>Věděli jste, že ve
+            <p>Věděli jste, že ve starověku lidé věřili, že roh jednorožce dokáže očistit vodu? Ve skutečnosti se často jednalo o rohy narvalů, které byly prodávány jako magické artefakty.</p>
+        </div>
+
+        <div class="footer">
+            © 2026 Svět Jednorožců
+        </div>
+    </div>
+
+</body>
+</html>
